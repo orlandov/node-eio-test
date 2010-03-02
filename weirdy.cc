@@ -66,7 +66,7 @@ protected:
 
     printf("foo is %d\n", *foo);
 
-    printf("&foo = %p", foo);
+    printf("&foo = %p\n", foo);
 
     eio_req *req = eio_custom(eio_Connect, EIO_PRI_DEFAULT, eio_AfterConnect, foo);
 
